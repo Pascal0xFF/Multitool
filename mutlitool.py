@@ -9,16 +9,12 @@ import random
 import string
 import shutil # Für erweitertes Löschen von Ordnern
 
-# Import für direkte Tastatureingabe (nur Windows)
-# Auf anderen Systemen wird auf die Standard-input() Funktion zurückgegriffen
 try:
     import msvcrt
 except ImportError:
     msvcrt = None
 
-# --- Hilfsfunktionen für die Benutzeroberfläche ---
 def clear_screen():
-    # 'nt' ist für Windows, 'posix' für Linux/macOS
     os.system('cls' if os.name == 'nt' else 'clear')
 
 def print_header(title):
@@ -597,7 +593,7 @@ def main_menu():
         print("| $$ \/  | $$|  $$$$$$/| $$$$$$$$| $$    /$$$$$$   | $$  |  $$$$$$/|  $$$$$$/| $$$$$$$$    ")
         print("|__/     |__/ \______/ |________/|__/   |______/   |__/   \______/  \______/ |________/     ")
         print("                                                                                                     ")                                                                       
-        print("                                                                 Made by Pascal404") # Angepasste Ausrichtung
+        print("                                                                 Made by Pascal404")
         print("\n")
         print("======================================================================")
         print("                 WILLKOMMEN ZUM ULTIMATIVEN MULTITOOL!                ")
