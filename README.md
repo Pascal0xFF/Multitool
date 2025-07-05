@@ -3,6 +3,7 @@ Multitool – Das ultimative Kommandozeilen-Tool
 Willkommen zum Multitool! Dieses vielseitige Kommandozeilen-Tool bietet Funktionen für Systeminfos, Netzwerkdiagnose, Dateioperationen, Prozessmanagement, IoT-Simulationen und allgemeine Utilities.
 
 Made by Pascal404
+
 Inhaltsverzeichnis
 
     Funktionen
